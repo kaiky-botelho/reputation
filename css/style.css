@@ -1,0 +1,252 @@
+/* Definições de fontes */
+@font-face {
+    font-family: reputation;
+    src: url(../fonts/rep.otf);
+}
+
+@font-face {
+    font-family: soria;
+    src: url(../fonts/soria-font.ttf);
+}
+
+@font-face {
+    font-family: classTit;
+    src: url(../fonts/OPTIPirogi-Roman.otf);
+}
+
+/* Regras gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+}
+
+header h1 {
+    font-family: reputation;
+    font-size: 100px;
+    text-align: center;
+}
+
+header h2 {
+    font-family: reputation;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.divider_one, .divider_two {
+    background-color: black;
+    width: 90vw;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.divider_one {
+    height: 1vh;
+}
+
+.divider_two {
+    height: 0.5vh;
+}
+
+.noticias {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.noticia-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.noticia-principal img{
+    width: 500px;
+}
+
+.principal-texto {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.noticia-principal h2 {
+    color: #333333;
+    font-family: soria;
+    font-size: 40px;
+    margin-bottom: 10px; 
+}
+
+.date {
+    font-size: 30px;
+    color: #808080;
+    margin: 10px 0px 10px 0px; 
+}
+
+.noticia-principal .noticia {
+    font-size: 30px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.outras-noticias{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.lookWhat, .stadium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 25vw;
+    height: auto;
+    margin: 50px 20px 10px 20px;
+}
+.inovacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    height: auto;
+    margin: 50px 20px 10px 20px;
+}
+
+.lookWhat, .inovacao, .stadium h3{
+    font-size: 40px;
+    font-family: soria;
+    margin-top: 20px;
+}
+
+.lookWhat, .inovacao, .stadium p {
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px;
+}
+
+.classificados{
+    font-size: 80px;
+    font-family: reputation;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.classificados-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.classificados1, 
+.classificados2, 
+.classificados3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28vw;
+    background-color: #ffffff;
+    margin: 0 20px 0 20px;
+}
+
+h4{
+    font-family: classtit;
+    font-size: 45px;
+    color: white;
+    background-color: #1A1A1A;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.classificados1, .classificados2, .classificados3 p{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 19px;
+    padding: 10px
+}
+
+.divider{
+    background-color: #1A1A1A;
+    width: 28vw;
+    height: 0.6vh;
+    border-radius: 20px;
+    margin: 10px 0 5px 0;
+}
+
+.tracklist{
+    font-size: 80px;
+    font-family: reputation;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tracklist-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img-track, .track {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    height: auto;
+    margin: 0 20px 0 20px;
+}
+.texto-track {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+
+
+    margin: 0 20px 0 20px;
+}
+
+h5{
+    font-size: 40px;
+    font-family: soria;
+    margin-top: 20px;
+}
+
+.texto-track, .track p {
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px;
+}
+
+.img-track img{
+    width: 25vw;
+    margin: 10px;
+}
+
+.data-album{
+    background-color: #333333;
+    width: 25vw;
+    font-family: reputation;
+    color: white;
+}
+
+.data-album p {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    text-align: center;
+}
