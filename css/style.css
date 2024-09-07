@@ -1,4 +1,18 @@
-/* Regras gerais */
+@font-face {
+    font-family: reputation;
+    src: url(../fonts/rep.otf);
+}
+
+@font-face {
+    font-family: soria;
+    src: url(../fonts/soria-font.ttf);
+}
+
+@font-face {
+    font-family: classTit;
+    src: url(../fonts/OPTIPirogi-Roman.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
