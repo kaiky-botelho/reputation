@@ -27,17 +27,10 @@ O site está dividido em seções, incluindo:
 
 Na pasta **prototipo**, você encontrará os designs e esboços utilizados como referência durante o processo de criação. Isso inclui as fontes de inspiração do layout, paleta de cores, e a disposição das imagens e do conteúdo. A ideia central foi criar um design que misturasse elementos de jornais impressos com a estética moderna de Taylor Swift no álbum *Reputation*.
 
-## Visual do Projeto
-
-<img src="./img/taylor-swift-reputation.webp" alt="Preview do Projeto">
-
 ## Contato
 
 Para acompanhar mais projetos e atualizações:
 
 - **Instagram**: [Projetos Kai](https://www.instagram.com/projetos_kai/)
-- **GitHub**: [kaiky-botelho](https://github.com/kaiky-botelho)
 
 ---
-
-Se tiver dúvidas ou sugestões, sinta-se à vontade para contribuir ou entrar em contato!
